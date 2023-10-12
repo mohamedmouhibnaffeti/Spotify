@@ -4,7 +4,7 @@ export default function Login() {
   const handleClick = async () => {
     const CLIENT_ID: string = "96c7ad0a510345c08e3845ef1fb6db3f";
     const CLIENT_SECRET: string = "57db9cd70bf9498b9b1aa6e0dcf730e5";
-    const REDIRECT_URI: string = "http://localhost:3000"
+    const REDIRECT_URI: string = "https://mohamedmouhibnaffeti.github.io/Spotify"
     const AUTH_ENDPOINT: string = "https://accounts.spotify.com/authorize"
     const RESPONSE_TYPE: string = "token"
     const SCOPE: string = "user-read-email user-read-private user-library-read user-read-playback-position user-read-recently-played user-read-currently-playing user-top-read user-modify-playback-state user-read-playback-state"
