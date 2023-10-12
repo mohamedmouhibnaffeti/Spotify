@@ -8,54 +8,40 @@ const Search = () => {
           backgroundColor: 'rgb(16 185 129)',
         },
         {
-          title: 'PodCasts',
+          title: 'Pop Music',
           backgroundColor: 'rgb(124 58 237)',
         },
         {
-          title: 'PodCasts',
+          title: 'Rap',
           backgroundColor: 'rgb(219 39 119)',
         },
         {
-          title: 'PodCasts',
+          title: 'Hip Hop',
           backgroundColor: 'rgb(8 145 178)',
         },
         {
-          title: 'PodCasts',
+          title: 'Romance',
           backgroundColor: 'rgb(239 68 68)',
         },
         {
-          title: 'PodCasts',
+          title: 'Metal',
           backgroundColor: 'rgb(8 145 178)',
         },
         {
-          title: 'PodCasts',
+          title: 'Recent',
           backgroundColor: 'rgb(239 68 68)',
         },
         {
           title: 'PodCasts',
           backgroundColor: 'rgb(239 68 68)',
-        },
-        {
-          title: 'PodCasts',
-          backgroundColor: 'rgb(239 68 68)',
-        },
-        {
-          title: 'PodCasts',
-          backgroundColor: 'rgb(239 68 68)',
-        },
-        {
-          title: 'PodCasts',
-          backgroundColor: 'rgb(239 68 68)',
-        },
-        {
-          title: 'PodCasts',
-          backgroundColor: 'rgb(239 62 68)',
-        },
+        }
+        
       ];
       
 
     return (
         <div id="app" style={{ height: "100vh", display: "flex" }}>
+          <p className="text-white font-bold text-3xl">Browse</p>
             <main className="ml-4 mt-5 flex gap-9 flex-wrap">
                 {podcasts.map((podcast, index) => (
                     <div className="block w-[13rem] h-[14rem]  rounded-lg overflow-hidden" style={{ backgroundColor: podcast.backgroundColor }} key={index}>

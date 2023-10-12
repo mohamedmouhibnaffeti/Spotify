@@ -123,7 +123,7 @@ const Body = (props: any) => {
             </div>
             <div className="flex flex-wrap gap-14 ">
             {newAlbumReleases && newAlbumReleases.slice(0, showAll.val).map((album: any)=>(
-                <div className="mt-9 bg-black border border-gray-200 rounded-lg flex justify-center flex-col items-center shadow w-[12vw] h-[35vh]  hover:bg-gray-800 cursor-pointer">
+                <div className="mt-9 bg-black border border-gray-200 rounded-lg flex justify-center flex-col items-center shadow w-[15vw] h-[50vh]  hover:bg-gray-800 cursor-pointer">
                     <a href="#">
                         <img className="rounded-t w-40 h-22 py-2 " src={album.image} alt="" />
                     </a>
