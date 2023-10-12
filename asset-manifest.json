@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Spotify/static/css/main.756691b5.css",
+    "main.js": "/Spotify/static/js/main.106b7731.js",
+    "static/js/787.8f29a1ac.chunk.js": "/Spotify/static/js/787.8f29a1ac.chunk.js",
+    "static/media/podcast.png": "/Spotify/static/media/podcast.e31eaf202c8fea94dbaa.png",
+    "index.html": "/Spotify/index.html",
+    "main.756691b5.css.map": "/Spotify/static/css/main.756691b5.css.map",
+    "main.106b7731.js.map": "/Spotify/static/js/main.106b7731.js.map",
+    "787.8f29a1ac.chunk.js.map": "/Spotify/static/js/787.8f29a1ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756691b5.css",
+    "static/js/main.106b7731.js"
+  ]
+}
